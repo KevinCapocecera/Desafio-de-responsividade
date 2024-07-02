@@ -1,0 +1,53 @@
+@media screen and (min-width: 625px) and (max-width: 1024px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 80px;
+        gap: 10px;
+    }
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 584px;
+        height: 70px;
+
+        font-size: 24px;
+        font-family: "Poppins", sans-serif;
+        color:white;
+
+        border: none;
+        border-radius: 100px;
+        background-color: #C47F17;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        width: 584px;
+        height: 973px;
+        
+        border: none;
+        padding: 80px 0px 80px 0px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        display: flex;
+        align-items: center;
+        font-size: 26px;
+    }
+}
